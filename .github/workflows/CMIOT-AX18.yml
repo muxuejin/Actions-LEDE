@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Build H3C NX30Pro
+name: Build CMIOT-AX18
 
 permissions: write-all
 #开启写权限，防止无法上传到release
