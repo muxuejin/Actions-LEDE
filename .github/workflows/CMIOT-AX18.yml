@@ -70,6 +70,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
+        git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 
     - name: 更新 feeds
       run: cd openwrt && ./scripts/feeds update -a
