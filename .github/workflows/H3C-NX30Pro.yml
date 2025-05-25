@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Build H3C NX30Pro
+name: Build CMIOT-AX18
 
 permissions: write-all
 #开启写权限，防止无法上传到release
@@ -70,7 +70,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
-
+        
     - name: 更新 feeds
       run: cd openwrt && ./scripts/feeds update -a
 
