@@ -94,7 +94,7 @@ jobs:
       uses: klever1988/cachewrtbuild@main
       with:
        ccache: 'true'
-       clean: 'false'
+       mixkey: 'arm'
        prefix: ${{ github.workspace }}/openwrt
 
     - name: 加载自定义 Feed
